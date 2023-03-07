@@ -17,16 +17,16 @@ if (isset($_GET['submit'])) {
 
     echo "Nilai Rata-rata:" .round($average, 2). "<br>";
     echo "Grade Nilai : ";
-    if ($average < 35) {
+    if ($average < 36) {
         echo "E";
-    } elseif ($average < 55) {
+    } elseif ($average < 56) {
         echo "D";
-    } elseif ($average < 69) {
+    } elseif ($average < 70) {
         echo "C";
-    } elseif ($average < 84) {
+    } elseif ($average < 85) {
         echo "B";
-    } elseif ($average < 100) {
-        echo "D";
+    } elseif ($average < 101) {
+        echo "A";
     } else {
         echo "I";
     }
